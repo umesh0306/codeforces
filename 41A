@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+	string s,s1;
+	cin>>s;int k
+	
+	
+	for(int i=0;i<n;i++)
+	{
+	if(s[i]<110)
+	{
+	k=109-s[i];
+	s[i]=109+k;
+	}
+	else
+	{
+	k=s[i]-109;
+	s[i]=abs(s[i]-k);
+	}}
+	if(s1==s)
+	cout<<"YES";
+	else
+	cout<<"NO":
+	return 0;
+	}
+	
